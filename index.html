@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The First Aviators</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">The First Aviators</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#wright-brothers">The First Aviators</a></li>
+        </a>
+          <li><a href="#x-1">X-1</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">☰</div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Flight History</h1>
+      <p>Astronauts boldly explore the mysteries of space, while cars revolutionize how we connect and move. The Moon inspires exploration as Earth's celestial companion, and the Earth itself is a vibrant, life-sustaining blue planet.</p>
+      <a href="#wright-brothers" class="btn">3D</a>
+    </div>
+  </section>
+
+  <!-- Intro Section -->
+  <section id="intro" class="intro">
+    <h2>Welcome</h2>
+    <p>Embark on a journey through aviation history, showcasing groundbreaking achievements and legendary aircrafts.</p>
+  </section>
+
+  <!-- Wright Brothers Section -->
+  <section id="wright-brothers" class="section">
+    <h2>The First Aviators</h2>
+    <div class="content">
+      <div class="card">
+        <h3>The First Aviators</h3>
+        <p>Astronauts boldly explore the mysteries of space, while cars revolutionize how we connect and move. The Moon inspires exploration as Earth's celestial companion, and the Earth itself is a vibrant, life-sustaining blue planet.</p>
+      </div>
+      <div class="images">
+        <img src="Futuristic Astronaut__A high-tech astronaut with glowing features, a sleek helmet, and advanced suit.jpeg" alt="Wright Brothers View 1" style="width: 400px; height: 400px;">
+        <img src="_Earth in Focus and Grey Underlayer_.jpeg" alt="Wright Brothers View 2" style="width: 400px; height: 400px;">
+        <img src="A grey lunar ground with Earth in the sky with car with aliens_.jpeg" alt="Wright Brothers View 3" style="width: 400px; height: 400px;">
+      </div>
+      <model-viewer src="models/wright-brothers.glb" alt="3D model of Wright Brothers Plane" ar auto-rotate camera-controls></model-viewer>
+    </div>
+  </section>
+
+  <!-- X-1 Section -->
+  <section id="x-1" class="section">
+    <h2>Breaking the Sound Barrier</h2>
+    <div class="content">
+      <div class="images">
+        <img src="Alien Character__A quirky or serious alien design to add a touch of creativity.jpeg" alt="X-1 View 1"  style="width: 400px; height: 400px;">
+        <img src="garden in the sky with car astronauts driving on it road, mars and planets; extraterrestrial world m.jpeg" alt="X-1 View 2" style="width: 400px; height: 400px;">
+        <img src="Full Astronaut in a Spacesuit - Pose ideas_ Standing with a flag, floating in zero gravity, or walki.jpeg" alt="X-1 View 3" style="width: 400px; height: 400px;">
+      </div>
+      <div class="card">
+        <h3>Breaking the Sound Barrier</h3>
+        <p>The Bell X-1 was the first aircraft to break the sound barrier, marking a leap into supersonic aviation and advancing human flight capabilities..</p>
+      </div>
+      <model-viewer src="models/x1.glb" alt="3D model of X-1" ar auto-rotate camera-controls></model-viewer>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2024 Flight History. All rights reserved.</p>
+    <p>Built with passion and hosted on <a href="https://github.com/">GitHub Pages</a>.</p>
+  </footer>
+</body>
+</html>
